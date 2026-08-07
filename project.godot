@@ -1,0 +1,12 @@
+[application]
+config/name="Exit Puzzle"
+run/main_scene="res://Main.tscn"
+
+[display]
+window/size/viewport_width=800
+window/size/viewport_height=600
+window/size/window_width_override=800
+window/size/window_height_override=600
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
