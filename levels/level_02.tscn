@@ -1,0 +1,16 @@
+[gd_scene format=3]
+
+[node name="Level02" type="Node2D"]
+
+[node name="LevelInfo" type="Label" parent="."]
+text = "Level 2 - Push Blocks"
+position = Vector2(40,40)
+
+[node name="PlayerStart" type="Marker2D" parent="."]
+position = Vector2(100,450)
+
+[node name="Block01" type="Marker2D" parent="."]
+position = Vector2(300,300)
+
+[node name="Switch" type="Marker2D" parent="."]
+position = Vector2(500,300)
