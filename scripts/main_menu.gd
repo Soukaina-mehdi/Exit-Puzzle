@@ -5,7 +5,7 @@ func _ready():
     $QuitButton.pressed.connect(quit_game)
 
 func start_game():
-    get_tree().change_scene_to_file("res://levels/level_01.tscn")
+    get_tree().change_scene_to_file("res://scenes/LevelSelect.tscn")
 
 func quit_game():
     get_tree().quit()
