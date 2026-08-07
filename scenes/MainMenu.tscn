@@ -1,0 +1,22 @@
+[gd_scene format=3]
+
+[ext_resource path="res://scripts/main_menu.gd" type="Script" id="1"]
+
+[node name="MainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource("1")
+
+[node name="Title" type="Label" parent="."]
+text = "EXIT PUZZLE"
+position = Vector2(300,100)
+
+[node name="PlayButton" type="Button" parent="."]
+text = "PLAY"
+position = Vector2(350,250)
+
+[node name="QuitButton" type="Button" parent="."]
+text = "QUIT"
+position = Vector2(350,350)
