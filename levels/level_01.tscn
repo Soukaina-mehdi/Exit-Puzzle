@@ -1,0 +1,18 @@
+[gd_scene format=3]
+
+[node name="Level01" type="Node2D"]
+
+[node name="LevelInfo" type="Label" parent="."]
+text = "Level 1 - Find the Key and Exit"
+position = Vector2(40,40)
+
+[node name="PlayerStart" type="Marker2D" parent="."]
+position = Vector2(100,100)
+
+[node name="KeyPosition" type="Marker2D" parent="."]
+position = Vector2(350,200)
+
+[node name="DoorPosition" type="Marker2D" parent="."]
+position = Vector2(650,450)
+
+[node name="Walls" type="Node2D" parent="."]
